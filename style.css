@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+}
+
+#timerBg {
+    width: 150px;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 159, 61);
+}
+
+#instructions {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 235, 61);
+}
+
+#memoryBg {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(231, 190, 135);
+}
+
+#startGame {
+    padding: 10px;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-size: 40px;
+}
+
+.cardMatch {
+    opacity: 0;
+}
